@@ -540,6 +540,7 @@ address {
 .footer-soc {
     margin-right: 93px;
 }
+
 .foter-soc-title,
 .subscription-title {
     display: flex;
@@ -696,11 +697,8 @@ body {
     fill: var(--accent-color);
 }
 
-.modal-container {
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-
+.contact-form {
+    padding: 40px 39px 40px 41px;
 }
 
 
@@ -720,7 +718,6 @@ body {
 }
 
 .contact-form-item {
-    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -756,7 +753,8 @@ body {
     border-color: var(--accent-color);
 }
 
-.iput-form:hover + .form-icon {
+.iput-form:hover + .form-icon,
+.iput-form:focus + .form-icon {
     fill: var(--accent-color);
 }
 
